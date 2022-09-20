@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8933515823032057871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8933515823032057969}
+  - component: {fileID: 8933515823032057968}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8933515823032057969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515823032057871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8933515823032057968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8933515823032057871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2813b0c43d3cb9444b7195c6e3651e43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: AttackRobot
+    clip: {fileID: 8300000, guid: 9ec504dda43012442b07f1cdf814102b, type: 3}
+    mixer: {fileID: 24300002, guid: 8fc042dfca667cb478522d5d824498e7, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: AttackZombie
+    clip: {fileID: 8300000, guid: 8e0c419cc8eabdd499849a189b4f8039, type: 3}
+    mixer: {fileID: 24300002, guid: 8fc042dfca667cb478522d5d824498e7, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Knife
+    clip: {fileID: 8300000, guid: a40f52093c3e06042aca6e721cd529f1, type: 3}
+    mixer: {fileID: 24300002, guid: 8fc042dfca667cb478522d5d824498e7, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ButtonClick
+    clip: {fileID: 8300000, guid: 7c6daa1cafc8a7e47b6933fddedcf7a3, type: 3}
+    mixer: {fileID: 0}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CoinCollect
+    clip: {fileID: 8300000, guid: 394e1f40561a0a648adb9006a28c8fb6, type: 3}
+    mixer: {fileID: 24300002, guid: 8fc042dfca667cb478522d5d824498e7, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GameTheme
+    clip: {fileID: 8300000, guid: 2544326395a74d148bda52953859b2d7, type: 3}
+    mixer: {fileID: 24300002, guid: e365ac1be6ed612409a6be660fa6b323, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 1dc967761e4fd7c468cb436603fa5fa3, type: 3}
+    mixer: {fileID: 24300002, guid: e365ac1be6ed612409a6be660fa6b323, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: GunShot
+    clip: {fileID: 8300000, guid: ce9b1bb35a54e20449a6099e87f78c1d, type: 3}
+    mixer: {fileID: 24300002, guid: 8fc042dfca667cb478522d5d824498e7, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: HealthPickUp
+    clip: {fileID: 8300000, guid: 35cf44de1f74baa498b2c5cb5db9c30a, type: 3}
+    mixer: {fileID: 24300002, guid: 8fc042dfca667cb478522d5d824498e7, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: LevelCompleted
+    clip: {fileID: 8300000, guid: 47a5acc2ef5b20b40a46e87c33423720, type: 3}
+    mixer: {fileID: 24300002, guid: e365ac1be6ed612409a6be660fa6b323, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ZombieDead
+    clip: {fileID: 8300000, guid: 147c268d61eaadb42a4896585da607af, type: 3}
+    mixer: {fileID: 24300002, guid: 8fc042dfca667cb478522d5d824498e7, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: ZombieRoar
+    clip: {fileID: 8300000, guid: d3559c83a613c654ea6a585cccfaa57f, type: 3}
+    mixer: {fileID: 24300002, guid: 8fc042dfca667cb478522d5d824498e7, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: IntroTheme
+    clip: {fileID: 8300000, guid: ba4a90b69ce81b246b15efd8c44cb947, type: 3}
+    mixer: {fileID: 24300002, guid: e365ac1be6ed612409a6be660fa6b323, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
