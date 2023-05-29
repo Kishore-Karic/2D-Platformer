@@ -1,6 +1,6 @@
 # Ninja Night
 This is a Complete Platform game with 5 Levels <br/>
-[Gameplay Trailer](https://drive.google.com/file/d/16gG5wbnvkwQBVlUcPLpigyfKsgFDq-Y8/view?usp=share_link) <br/>
+[Gameplay Trailer](https://youtu.be/aGcYs63sqFc) <br/>
 [Playable Link](https://kishore-karic.itch.io/ninja-night) <br/>
 
 # Game Functionaly
